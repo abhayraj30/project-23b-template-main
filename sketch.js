@@ -82,8 +82,9 @@ function draw() {
 }
 
 function pressed (){
-	if(keydown === LEFT_ARROW){
+	if(keyCode === LEFT_ARROW){
 	      helicopterSprite.x = helicopterSprite.x-20;
+		translation={x:-20,y:0};
 
 }
 	if(keyCode === DOWN_ARROW){
