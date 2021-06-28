@@ -82,7 +82,10 @@ function draw() {
 }
 
 function pressed (){
+	if(keydown === LEFT_ARROW){
+	      helicopterSprite.x = helicopterSprite.x-20;
 
+}
 	if(keyCode === DOWN_ARROW){
 		Matter.Body.satStatic(packageBody,false);
 	}
